@@ -1,0 +1,425 @@
+
+body{
+  margin: 0%;
+  padding: 0%;
+}
+/* navbar */
+.nv{
+       background-color: white;
+       padding-bottom: 2opx;
+       padding-top: 20px;
+    
+}
+.nv1{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-bottom: 24px;
+       padding-top: 40px;
+       background-color: white;
+       z-index: 2;
+           padding-left: 117px;
+    margin-left: 0px;
+
+
+}
+
+
+.logo img{
+    height: 40px;
+}
+.dropbtn {
+  color: black;
+  text-decoration: none;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 170px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 10px;
+  margin-top: 38px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {color: #f15f25}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {color: #f15f25;}
+
+.abt a{
+      text-decoration: none;
+      color: white;
+      border: 1px solid #f15f25;  
+      padding: 14px 25px;
+      line-height: 45px;
+      font-size: 14px ;
+      background-color: #f15f25;
+      border-radius: 10px;
+      border-bottom: 3px solid #f9b001;
+      font-family: sans-serif;
+}
+
+.btn{
+  background-color: white;
+  color: #000000;
+  border-radius: 0;
+}
+
+.btn:hover{
+  background-color: white;
+  color: #000000;
+}
+.of{
+      border-radius: 73px 0px 0px 73px;
+      padding-inline: 50px;
+      
+      
+}
+.of img{
+  margin-top: 49px;
+}
+
+.offcanvas-header img {
+  height: 60px;
+}
+
+/* Hero boy girl */
+
+.hbg{
+  margin-top: 90px;
+  background-color: #FFE39F;
+  width: 100%;
+    padding-top: 10px;
+    height: 548px;
+    background-image:url(pattern-1.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.hbg h5{
+      font-family: "Dosis", Sans-serif;
+      color: #f15f25;
+      font-weight: 600;
+      font-size: large;
+           
+}
+
+
+.hbg h1{
+    
+    font-size: 68px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 72px;
+    letter-spacing: 0px
+}
+
+
+
+.bk1{
+    padding-top: 100px;
+        position: absolute;
+    left: 107px;
+    
+}
+
+.bk1 h1 span{
+  border-bottom: 5px solid #ffc107;
+}
+.ha {
+  position: absolute;
+    bottom: 120px;
+    left: 139px;
+    text-decoration: none;
+      color: white;
+      border: 1px solid #f15f25;  
+      padding: 2px 27px;
+      line-height: 45px;
+      font-size: 14px ;
+      background-color: #f15f25;
+      border-radius: 10px;
+      border-bottom: 3px solid #f9b001;
+      font-family: sans-serif;
+      z-index: 1;
+}
+
+.cld img {
+  position: absolute;
+    width: 100%;
+    top: 320px;
+    height: 60%;
+}
+.ecom .j{
+  
+  max-width: 25%;
+  position: relative;
+    position: absolute;
+    right: 272px;
+    top: 169px;
+    align-items: center;
+  
+}
+.ecom .I{
+     align-items: center;
+    position: absolute;
+    right: 101px;
+    bottom: -60px;
+    max-width: 25%;
+}
+
+
+/* Hero girl */
+.ag img{
+  width: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+.ag1 h1{
+  color: #343434;
+  font-size: 61px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 66px;
+    letter-spacing: 0px;
+
+}
+.ag1 h1 span{
+  border-bottom: 5px solid #ffc107;
+}
+.ag1 h5{
+  color: #f15f25;
+  font-size: large;
+  font-weight: 500;
+}
+.hg{
+  margin-block: 140px;
+}
+.ag .e1{
+      width: 100px;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    left: 95px;
+    bottom: -495px;
+
+}
+.ag .e3{
+      width: 100px;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    bottom: -350px;
+    left: 138px;
+    
+}
+
+.ag .e10{
+      width: 70px;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    bottom: -637px;
+    left: 148px;
+  }
+  .ag .e11{
+    width: 200px;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    bottom: -710px;
+    left: 365px;
+  
+  }
+  .home h4 {
+    font-family: "Dosis", Sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: #343434;
+  }
+  .home i{
+    font-size: 45px;
+    color: #f15f25;
+    padding-right: 20px;
+  }
+  .call h3{
+    color: #f9b001;
+  }
+  .call small{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .call img{
+    font-size: 35px;
+    color: #f15f25;
+    position: absolute;
+    right: 390px;
+  }
+ 
+        /* Hero  */
+        .hero {
+            text-align: center;
+            padding: 80px 15px 60px;
+            background-color: #F0EFEC;
+          
+        }
+
+        .hero h5 {
+            color: #ff7a18;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+
+        .hero h1 {
+            font-weight: 800;
+            margin-top: 15px;
+        }
+
+        .hero h1 span {
+            border-bottom: 5px solid #ffc107;
+        }
+
+        .hero p {
+            max-width: 600px;
+            margin: 20px auto 0;
+            color: #666;
+        }
+        .he .e12{
+          width: 200px;
+          object-fit: cover;
+          
+          position: absolute;
+          right: 0;
+          bottom: -1120px;
+          
+        }
+      /* Hero big jouney */
+      .hbj{
+        margin-block: 80px;
+      }
+      .ht h2{
+        font-size: 62px;
+        font-weight: 700;
+        text-transform: capitalize;
+        line-height: 66px;
+        letter-spacing: 0px;
+        margin: 0px 0px 0px 0px;
+      }
+      .ht h2 span{
+        border-bottom: 5px solid #ffc107;
+      }
+      .ht2{
+        padding-left:88px;
+        padding-top: 42px;
+      }
+      .ht h5{
+        color: #ff7a18;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+      }
+
+
+      /* footer */
+      .footer{
+        padding: 100px 0 140px;
+        border-top: 1px solid #ddd;
+      }
+      .f1{
+        line-height: 26px;
+    color: #6a6060;
+      }
+      .f1 p{
+        padding-top: 22px;
+      }
+      .i{
+        font-size: 21px;
+        color: #343434;
+        font-weight: 500;
+      }
+      .w{
+        color: #f15f25;
+        font-size: large ;
+        font-weight: 500;
+        padding-top: 9px;
+      }
+      .x{
+        color: #6a6060;
+      }
+      .footer input{
+      background-color: #f0efec;
+      border: none;
+      border-radius: 15px;
+      padding-inline:12px ;
+      margin-bottom: 0;
+      line-height: 50px;
+      color: var(--kidden-dark-color, #000000);
+      width: 100%;
+      height: 60px
+      }
+    
+      .b a{
+        text-decoration: none;
+        color: #6a6060;;
+        line-height: 42px;
+      }
+.social-service{
+  letter-spacing: 7px;
+  padding-top: 22px;
+}
+.social-service a {
+  color: #343434;
+    font-size: 18px;
+    border: 1px solid #f0efec;
+    padding: 7px 5px 8px 11px;
+    border-radius: 12px;
+    background-color: #f9f0f0;
+    
+    
+}
+.inline-form {
+    display: flex; 
+    align-items: center; 
+    background-color: #f0efec;
+      border-radius: 15px;
+      border: none;
+      margin-bottom: 0;
+      line-height: 50px;
+      color: var(--kidden-dark-color, #000000);
+      width: 100%;
+      height: 60px;
+}
+.inline-form button{
+  font-size: 32px;
+    height: 49px;
+    border-radius: 14px;
+    background: #f15f25;
+    color: #f9f0f0;
+    border: #f15f25;
+    padding-inline: 12px;
+}
+
+
+    
+         
